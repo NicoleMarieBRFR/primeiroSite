@@ -1,0 +1,44 @@
+body {font-family: 'Amatic SC', cursive;}
+
+div {margin:0; padding:0} /*informar que n tera nada de borders nas img de link*/
+
+.conteudo-menu {background-color: #EFF2F7; border:1px solid #FF0000; padding: 10px 0 10px 0; position: relative;}
+
+.topo { overflow: auto; }
+
+#menu {text-align: right;}
+
+.menu { font-size: 18px; display: flex; align-items: center; list-style: none; display: inline-block;}
+.menu a{ color: #95A5A6; text-decoration: none;}
+.menu a:hover { color: black; text-decoration: none;}
+/* n funcionando */
+.menu a:active { color: black; text-decoration: none;}
+
+.icone img { position: relative; width:auto; }
+
+#home { background-image: url("../img/home.png"); background-repeat: no-repeat; background-size: 100% 100%; height:100vh; width: 100%;
+ text-align: center; color: black; }
+#home h1 { font-family: 'Amatic SC', cursive; font-size: 120px;}
+#home h2 { font-family: 'Open Sans Condensed', sans-serif; font-size: 30px; position: relative; top: 30px;}
+
+.livros { background-image: url("../img/livros.png"); background-repeat: no-repeat; background-size: 100% 100%; height:100vh; width: 100%;
+ text-align: center; color: black; }
+.livros h1 { font-family: 'Amatic SC', cursive; font-size: 120px;}
+.livros h2 { font-family: 'Open Sans Condensed', sans-serif; font-size: 30px; position: relative; top: 25px;}
+
+.contact { background-color: #EFF2F7; height:100vh; width: 100%; }
+
+/*.degrade {background: -webkit-linear-gradient(top, #5DA142, #ffffff 250px); padding: 250px; 
+position: relative; bottom: 10px; }
+.degrade h3 { font-family: 'Open Sans Condensed', sans-serif; font-size: 35px; margin: 0; text-align: center; margin-bottom: 150px; 
+position: relative; bottom: 70px;} 
+
+.roda img { height:100vh; max-width:750px; max-height:600px; width: auto; height: auto; position: relative;
+bottom: 140px; left: 180px;} */
+
+.rodape { position: relative;}
+.rodape p { font-size: 20px; padding: 30px 0 10px 0;}
+
+.footer { background-color: #5DA142; padding: 80px 0 20px 0; color: #000; overflow: hidden; font-family: 'Open Sans Condensed', sans-serif;}
+
+@media (max-width: 768px) {.col-xs-12.text-right, .col-xs-12.text-left {text-align: center !important; }}
